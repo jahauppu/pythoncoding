@@ -16,9 +16,20 @@ print(a_dict.keys())
 print(a_dict.values())
 print(a_dict.items())
 
+a_dict['c']=1
+a_dict['a']=10
+print(a_dict)
+
 
 #a_dict.has_key('a')# print(a_dict.has_key('c'))throws exception;has_key is no longer used. Use IN operator
 #a_dict.pop()
 #a_dict.items() #Get List of all Key/Value Pairs in Dictionary
 #a_dict.keys() #Get List of all Keys in Dictionary
 #a_dict.values()#Get List of all Values in Dictionary
+
+s={'s','b','c','d'}
+u={'e','d','a'}
+print(u.union(s))
+print(s&u)
+
+
